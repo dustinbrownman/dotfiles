@@ -4,10 +4,9 @@ export PATH=/usr/local/bin:$PATH
 # Aliases
 alias ll='ls -l'
 alias lla='ls -la'
-alias ..="cd .."
 alias be="bundle exec"
-alias pbcopy='xclip -selection clipboard'
-alias cb='git rev-parse --abbref-ref HEAD | pbcopy'
+alias cb='git branch --show-current'
+alias grepc='grep --color=auto'
 
 # Colors are nice
 export CLICOLOR=1

@@ -6,6 +6,7 @@ alias ll='ls -l'
 alias lla='ls -la'
 alias ..="cd .."
 alias be="bundle exec"
+alias pbcopy='xclip -selection clipboard'
 alias cb='git rev-parse --abbref-ref HEAD | pbcopy'
 
 # Colors are nice
